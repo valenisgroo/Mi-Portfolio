@@ -3,33 +3,109 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-header{
-    border: 1px solid red;
-    background-color: grey;
+html{
+    scroll-behavior: smooth;
 }
 
-main{
-    border: 1px solid blue;
+/*Navegador*/
+
+.contenedor-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background-color: #f0f0f0;
+    z-index: 99;
 }
 
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header .logo a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    /*position: relative;*/
+    font-size: 25px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: black;
+    margin: 0 15px;
+    padding: 2px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover{
+    color: #007bff;
+}
+
+/*Primer section*/
 .hero{
-    border: 1px solid green;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: #ffffff no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 50% 0;
 }
 
+.hero-name {
+    background-color: white;
+    color: #575454;
+    padding: 1px 4px;
+    border-radius: 10px;
+    border: 1px solid #575454;
+}
+
+/*Segundo section*/
 .skills{
-    border: 1px solid green;
+    width: 100%;
+    height: 100vh;
+    background-color: #d0e1f9;
 }
 
+/*Tercer section*/
 .proyects{
-    border: 1px solid green;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
 }
 
+/*Cuarto section*/
 .testimonials{
-    border: 1px solid green;
+    width: 100%;
+    height: 100vh;
+    background-color: #d0e1f9;
 }
 
+/*Quinto section*/
 .contact{
-    border: 1px solid green;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
 }
