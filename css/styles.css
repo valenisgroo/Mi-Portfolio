@@ -1,0 +1,35 @@
+/*Selector Universal*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    border: 1px solid red;
+    background-color: grey;
+}
+
+main{
+    border: 1px solid blue;
+}
+
+.hero{
+    border: 1px solid green;
+}
+
+.skills{
+    border: 1px solid green;
+}
+
+.proyects{
+    border: 1px solid green;
+}
+
+.testimonials{
+    border: 1px solid green;
+}
+
+.contact{
+    border: 1px solid green;
+}
