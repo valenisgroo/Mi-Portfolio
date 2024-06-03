@@ -59,16 +59,79 @@ html{
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 70px 50% 0;
+    padding: 70px 10% 0;
 }
 
-.hero-name {
+.hero-content{
+    max-width: 600px;
+}
+
+.hero-content h2{
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.hero-content h2 span {
     background-color: white;
     color: #575454;
     padding: 1px 4px;
+    font-size: 15px;
+    font-weight: 300;
     border-radius: 10px;
     border: 1px solid #575454;
 }
+
+.hero-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin: -3px 0;
+    padding-bottom: 15px;
+}
+
+.hero-content p{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.hero-content a{
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 2s;
+    
+}
+
+.hero-content a:hover{
+    background-color: #014a97;
+}
+
+.hero-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    color: #007bff;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: 2s;
+
+}
+.hero-icons a:hover{
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/*.hero-content img{
+    border-radius: 5px;
+    width: 50%;
+}*/
 
 /*Segundo section*/
 .skills{
