@@ -143,34 +143,34 @@ html{
 
 /*Sobre mi*/
 .sobremi{
-    background-color: #d0e1f9;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   align-items: center;
-   gap: 1,5rem;
-   height: 85vh;
+    padding: 40px 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
 }
 
-.sobremi-img img{
+/*.sobremi-img img{
     padding-bottom: 5%;
     padding-top: 5%;
     max-width: 200px;
     height: auto;
     width: 100%;
     padding-left: 5%;
+}*/
+
+.sobremi h2{
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
 }
 
-.sobremi-texto h2{
-    font-size: 40px;
-    padding-bottom: 10px;
 
-}
-
-.sobremi-texto h2 span{
-    color: #007bff;
-}
-
-.sobremi-texto h4{
+.sobremi h4{
     font-size: 29px;
     font-weight: 600;
     color: black;
@@ -179,24 +179,71 @@ html{
 }
 
 .about-text p{
-    color: #ffffff;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: rgba(0,0,0,0.6);
 }
 
 /*Habilidades*/
 .habilidades{
     width: 100%;
-    height: 85vh;
+    background-color: #d0e1f9;
+    text-align: center;
+    padding: 40px 180px;
+}
+
+.habilidades h2{
+    font-size: 22px;
+    padding-bottom: 10px;
+
+}
+
+.habilidades p{
+    font-size: 13px;
+    padding-bottom: 60px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contenedor-item{
+    width: 170px; 
+    height: 210px;
+    border-radius: 10px;
+    padding: 20px 60px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
     background-color: #ffffff;
+}
+
+.contenedor-item i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.contenedor-item h2 {
+    font-size: 22px;
+    color: #0078d4; 
+}
+
+.contenedor-item h4 {
+    font-size: 18px;
+    color: #333333; 
 }
 
 /*Tercer section*/
 .proyects{
     width: 100%;
-    height: 85vh;
-    background-color: #d0e1f9;
+    background-color: white;
 }
 
 /*Cuarto section*/
