@@ -252,7 +252,7 @@ html{
 
 
 
-/*Habilidades*/
+/*----------------HABILIDADES-----------------------*/
 .habilidades{
     width: 100%;
     background-color: #d0e1f9;
@@ -315,45 +315,48 @@ html{
     color: #333333; 
 }
 
-/*Tercer section*/
-.proyects{
+/*-----------------PROYECTOS------------------*/
+.proyects {
     width: 100%;
     background-color: white;
     text-align: center;
     padding: 40px;
 }
 
-.proyects h3{
-    padding: 20px;
-    font-size: 22px;
+.proyects h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
 }
-.login{
-    height: 500px;
-    position: relative;
+
+.project {
     display: flex;
     align-items: center;
-    justify-content: flex-start; 
-    padding-top: 10px;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-.login h3 {
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 250px; 
+.project .text-content {
+    max-width: 45%;
+    text-align: left;
 }
 
-.login p{
-    width: 600px;
-    left: 30px;
+.project img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.login img{
-    width: 400px;
-    height: 400px;
-    margin-left: 30px;
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
-/*------------------------------------------------*/
+
+.project p {
+    font-size: 16px;
+    color: #555;
+}
+
+/*------------------------SERVICIOS------------------------*/
 
 .services {
     height: 500px;
@@ -429,13 +432,17 @@ html{
     border-radius: 50%;
 }
 
-.cliente h5 {
-    margin: 0;
-    font-size: 18px;
-    margin-bottom: 5px;
+.cliente-info {
+    text-align: left;
 }
 
-.cliente h7 {
+.cliente-info h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cliente-info h7 {
     margin: 0;
     font-size: 16px;
     color: #888;
@@ -443,41 +450,46 @@ html{
     margin-bottom: 15px;
 }
 
-.cliente p {
+.cliente-info p {
     margin: 0;
     font-size: 14px;
     color: #555;
 }
 
 /*Quinto section*/
-.contact{
+.contacto{
     width: 100%;
     background-color: #ffffff;
     text-align: center;
+    padding: 40px 20px;
 }
 
-.contact h2{
+.contacto h2{
     padding-top: 40px;
     padding-bottom: 30px;
+    font-size: 28px;
 }
 
-.contact a{
+.contacto a{
     display: inline-block;
     text-decoration: none;
     background-color: #007bff;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 7px;
-    transition: 2s;
-    font-weight: 400;   
+    transition: 0.5s;
+    font-weight: 400; 
+    margin-bottom: 20px;  
 }
 
-.contact p{
+.contacto p{
     padding-top: 20px;
     padding-bottom: 40px;
+    font-size: 16px;
+    color: #555;
 }
 
-.contact a:hover{
+.contacto a:hover{
     background-color: #014a97;
 }
 
@@ -488,26 +500,35 @@ html{
     gap: 20px;
 }
 
+.contco-item{
+    width: 300px; 
+    height: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
 .contco2{
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
+    width: 300px;
+    height: 90px;
 }
 
-
-.contco-item{
-    width: 300px; 
-    height: 100px;
-    border-radius: 10px;
-    padding: 20px 60px;
-    text-align: center;
+.contco2 i{
+    padding-right: 14px;
 }
 
-
+.contco-item h4 {
+    margin-bottom: 10px;
+}
 
 .contco2 p {
     margin: 0;
-    font-size: 16px; /* Ajusta el tamaño del texto */
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    padding-top: 35px;
 }
 
 /*Footer*/
@@ -516,7 +537,6 @@ html{
     border: 0; 
     height: 1px; 
     background-color: grey;
-    margin: 20px 0;
 }
 
 .pie {
