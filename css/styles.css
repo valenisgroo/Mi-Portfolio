@@ -15,7 +15,7 @@ h2 {
     font-size: 23px;
     font-weight: 500;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 /*Navegador*/
@@ -25,7 +25,7 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 10%;
+    padding: 15px 10%;
     background-color: #f0f0f0;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ h2 {
 
 .logo {
     position: relative;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 500;
     color: black;
@@ -48,15 +48,15 @@ h2 {
     text-decoration: none;
     font-weight: 500;
     margin-left: 25px;
-    transition: 2s;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: color 1s;
+    font-family: sans-serif;
 }
 
 .navbar a:hover{
     color: #007bff;
 }
 
-/*Primer section*/
+/*------------------INICIO-----------------------*/
 .hero{
     position: relative;
     width: 100%;
@@ -171,11 +171,9 @@ h2 {
     margin: 15px 0 30px;
 }
 
-.about-text p{
-    padding: 10px;
-    font-weight: 400;
+.sobremi p{
+    padding: 25px;
     font-size: 14px;
-    margin-bottom: 25px;
     line-height: 1.5;
     color: rgba(0,0,0,0.6);
 }
@@ -210,7 +208,8 @@ h2 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     text-align: left;
     padding: 20px;
-    transition: background-color 2s;
+    border-radius: 10px;
+    transition: background-color 0.7s;
 }
 
 .fecha{
