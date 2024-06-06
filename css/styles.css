@@ -11,6 +11,13 @@ html{
     scroll-behavior: smooth;
 }
 
+h2 {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 15px;
+}
+
 /*Navegador*/
 
 .header{
@@ -60,17 +67,11 @@ html{
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 70px 180px;
 }
 
 .hero-content{
     max-width: 600px;
-}
-
-.hero-content h2{
-    font-size: 23px;
-    font-weight: 500;
-    padding-bottom: 15px;
 }
 
 .hero-content h2 span {
@@ -133,17 +134,17 @@ html{
 
 .hero img {
     position: relative;
-    border: 2px solid white; /* Borde blanco */
+    border: 2px solid white;
     border-radius: 20px; /* Bordes redondeados */
     width: 300px;
     height: 300px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*Sombra*/
     z-index: 1;
   }
 
-/*Sobre mi*/
+/*-----------------Sobre mi--------------------*/
 .sobremi{
-    padding: 40px 180px;
+    padding: 70px 180px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -160,14 +161,6 @@ html{
     width: 100%;
     padding-left: 5%;
 }*/
-
-.sobremi h2{
-    padding: 5px;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 15px;
-
-}
 
 
 .sobremi h4{
@@ -187,10 +180,10 @@ html{
     color: rgba(0,0,0,0.6);
 }
 
-/*Experiencia*/
+/*----------------Experiencia-----------------*/
 
 .experience{
-    padding: 40px 150px;
+    padding: 70px 150px;
     text-align: center;
     margin-bottom: 40px;
     background-color: #ffffff;
@@ -257,14 +250,9 @@ html{
     width: 100%;
     background-color: #d0e1f9;
     text-align: center;
-    padding: 40px 180px;
+    padding: 70px 180px;
 }
 
-.habilidades h2{
-    font-size: 22px;
-    padding-bottom: 10px;
-
-}
 
 .habilidades p{
     font-size: 13px;
@@ -302,8 +290,9 @@ html{
 
 .contenedor-item h2 {
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #0078d4; 
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .contenedor-item h2:hover{
@@ -320,13 +309,9 @@ html{
     width: 100%;
     background-color: white;
     text-align: center;
-    padding: 40px;
+    padding: 70px;
 }
 
-.proyects h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
 
 .project {
     display: flex;
@@ -355,8 +340,6 @@ html{
     font-size: 16px;
     color: #555;
 }
-
-/*------------------------SERVICIOS------------------------*/
 
 .services {
     height: 500px;
@@ -390,10 +373,10 @@ html{
 }
 
 
-/*Cuarto section*/
+/*-------------------TESTIMONIOS----------------------*/
 .testimonials{
     width: 100%;
-    padding: 50px 0;
+    padding: 70px 0px;
     background-color: #d0e1f9;
     text-align: center;
 }
@@ -403,10 +386,6 @@ html{
     margin-bottom: 10px;
 }
 
-.testimonials h2{
-    font-size: 32px;
-    margin-bottom: 50px;
-}
 
 .contcli{
     display: flex;
@@ -456,18 +435,12 @@ html{
     color: #555;
 }
 
-/*Quinto section*/
+/*----------------CONTACTO--------------------*/
 .contacto{
     width: 100%;
     background-color: #ffffff;
     text-align: center;
-    padding: 40px 20px;
-}
-
-.contacto h2{
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-size: 28px;
+    padding: 70px 20px;
 }
 
 .contacto a{
