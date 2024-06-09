@@ -1,0 +1,409 @@
+/*----------------1920px------------------*/
+@media (min-width:1441px) and (max-width:1920px){
+
+    .sobremi p{
+        width: 70%;
+    }
+    .container-item{
+        width: 35%;
+    }
+
+    .container-experience{
+        width: 100%;
+    }
+
+    .navbar i{
+        display: none;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 29px;
+    }
+
+    .hero {
+        height: 75vh;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h5{
+        font-size: 15px;
+    }
+
+    .logo{
+        font-size: 27px;
+    }
+
+    .header {
+        padding: 22px 10%;
+    } 
+
+    .navbar a {
+        font-size: 22px;
+    }
+    .sobremi{
+        padding-top: 100px;
+    }
+
+    .experience{
+        padding-top: 100px;
+    }
+
+    .habilidades{
+        padding-top: 100px;
+        height: 53vh;
+    }
+
+    .proyects {
+        padding: 100px;
+        padding-bottom: 10px;
+    }
+
+    .project{
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .testimonials {
+        padding-top: 100px;
+        height: 53vh;
+    }
+
+    .testimonials p{
+        padding-bottom: 30px;
+    }
+
+
+    .contcli {
+        gap: 50px;
+        padding: 70px;
+        height: auto;
+    }
+
+    .contcli p{
+        width: 500px;
+    }
+
+    .contacto {
+        padding: 90px 30px 20px;
+    }
+
+    .pie{
+        font-size: 16px;
+    }
+
+
+
+}
+
+/*----------------1440px------------------*/
+
+@media (min-width:1281px) and (max-width:1440px){
+    .sobremi p{
+        width: 80%;
+    }
+    .container-item{
+        width: 40%;
+    }
+
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .navbar a {
+        font-size: 19px;
+    }
+
+    .navbar i{
+        display: none;
+    }
+
+    .project{
+        padding-top: 40px;
+    }
+
+    .project img {
+        max-width: 58%;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+}
+
+/*----------------1280px------------------*/
+
+
+
+/*----------------1024px------------------*/
+@media (max-width:1024px){
+    .header{
+        padding: 15px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    .hero-content {
+        max-width: 400px;
+        padding-top: 50px;
+    }
+
+    .hero-content p {
+        width: 391px;
+    }
+
+    .sobremi{
+        padding: 50px 100px;
+    }
+
+    .experience{
+        padding: 60px 120px;
+        margin-bottom: 10px;
+    }
+
+    .habilidades{
+        padding: 50px 120px;
+    }
+
+    .projects{
+        padding: 30px 120px;
+    }
+
+    .project{
+        padding-top: 35px;
+    }
+
+    .project img {
+        max-width: 55%;
+    }
+
+    .tetimonilas{
+        padding: 30px 120px;
+    }
+
+    .navbar i{
+        display: none;
+    }
+    
+}
+
+/*----------------768px------------------*/
+
+@media (max-width:768px){
+    .navbar a{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .hero{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .hero img{
+        display: none;
+    }
+
+    .hero-content p{
+        width: 400px; 
+    }
+
+    .sobremi{
+        padding: 40px 60px;
+    }
+
+    .experience{
+        padding: 30px 50px;
+    }
+
+    .habilidades{
+        padding: 30px 50px;
+    }
+
+    .proyects{
+        padding: 30px 70px;
+    }
+
+    .tetimonilas{
+        padding: 30px 50px;
+    }
+
+    .contacto{
+        padding: 30px 50px;
+    }
+}
+
+/*-----------------660px (extra)-----------------------*/
+
+
+/*-----------------480px (extra)-----------------------*/
+@media (max-width:480px){
+    .navbar i{
+        display: block;
+        font-size: 20px;
+        color: black;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+    
+    .hero{
+        height: 80vh;
+        padding: 40px 30px;
+        margin-bottom: 40px;
+    }
+
+    .hero-content p{
+        width: 410px; 
+    }
+
+    .aboutme{
+        padding: 20px 50px;
+    }
+
+    .project .text-content {
+        max-width: 100%;
+        text-align: left; 
+    }
+
+    .project h3 {
+        font-size: 20px;
+        padding-top: 15px;  
+    }
+
+    .project p{
+        font-size: 13px;
+    }
+    
+    .experience{
+        padding: 30px 50px;
+        margin-bottom: 20px;
+    }
+
+    .project img{
+        display: none;
+    }
+
+    .proyects{
+        text-align: center;
+    }
+
+    .contcli{
+        flex-direction: column;
+    }
+
+    .cliente{
+        width: 100%;
+    }
+
+    .contco{
+        padding: 15px;
+        gap: 0;
+    }
+}
+
+
+/* ------------320px----------------*/
+
+@media (max-width: 320px) {
+    
+    .hero {
+        height: auto;
+        padding: 50px 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding-top: 20px;
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+
+    .hero-content p {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .hero-content a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .hero img {
+        display: none;
+    }
+    /*------  o  --------*/
+    .sobremi {
+        padding: 50px 20px;
+    }
+
+    .sobremi h4 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sobremi p {
+        padding: 20px 0;
+        font-size: 12px;
+    }
+    /*------  o  --------*/
+    .experience {
+        padding: 50px 20px;
+    }
+
+    .experience-p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .container-experience {
+        flex-direction: column;
+    }
+
+    .container-experience-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /*------  o  --------*/
+    .habilidades {
+        padding: 50px 20px;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

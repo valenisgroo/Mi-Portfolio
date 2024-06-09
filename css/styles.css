@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
 
 html{
@@ -13,9 +14,16 @@ html{
 
 h2 {
     font-size: 23px;
-    font-weight: 500;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
     padding-bottom: 20px;
+    
+}
+
+p{
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
 }
 
 /*Navegador*/
@@ -36,14 +44,14 @@ h2 {
     position: relative;
     font-family: sans-serif;
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }
 
 .navbar a{
     display: inline-block;
-    font-size: 17px;
+    font-size: 16px;
     color: black;
     text-decoration: none;
     font-weight: 500;
@@ -71,7 +79,15 @@ h2 {
 }
 
 .hero-content{
-    max-width: 600px;
+    max-width: 500px;
+    padding-top: 80px;
+    
+}
+
+.hero-content h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .hero-content h2 span {
@@ -86,15 +102,17 @@ h2 {
 }
 
 .hero-content h1{
-    font-size: 30px;
-    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     margin: -3px 0;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .hero-content p{
-    font-size: 15px;
     padding-bottom: 30px;
+    width: 600px; 
+    color: rgba(0,0,0,0.6);
 }
 
 .hero-content a{
@@ -102,10 +120,12 @@ h2 {
     text-decoration: none;
     background-color: #007bff;
     color: white;
+    font-size: 15px;
     padding: 10px;
     border-radius: 7px;
-    transition: 2s;
+    transition: 1s;
     font-weight: 400;   
+    margin-bottom: 10px;
 }
 
 .hero-content a:hover{
@@ -132,12 +152,28 @@ h2 {
     color: #ffffff;
 }
 
+.hero-content h5{
+    display: inline-flex;
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: -3px 0;
+    padding-bottom: 15px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.hero-content h5 span{
+    color: #007bff;
+    margin-right: 5px;
+}
+
 .hero img {
     position: relative;
     border: 2px solid white;
     border-radius: 20px; /* Bordes redondeados */
     width: 300px;
-    height: 300px;
+    height: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*Sombra*/
     z-index: 1;
   }
@@ -164,20 +200,39 @@ h2 {
 
 
 .sobremi h4{
-    font-size: 29px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 300;
     color: black;
-    line-height: 1.7;
-    margin: 15px 0 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .sobremi p{
     padding: 25px;
-    font-size: 14px;
     line-height: 1.5;
     color: rgba(0,0,0,0.6);
 }
 
+.cont-button{
+    padding-top: 30px;
+}
+
+.button-about {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 12px;
+    transition: background-color 1s;
+}
+
+.button-about:hover{
+    background-color: #014a97;
+}
 /*----------------Experiencia-----------------*/
 
 .experience{
@@ -254,7 +309,6 @@ h2 {
 
 
 .habilidades p{
-    font-size: 13px;
     padding-bottom: 60px;
 }
 
@@ -320,9 +374,10 @@ h2 {
 }
 
 .project .text-content {
-    max-width: 45%;
+    max-width: 35%;
     text-align: left;
 }
+
 
 .project img {
     max-width: 45%;
@@ -332,13 +387,9 @@ h2 {
 
 .project h3 {
     font-size: 24px;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
 }
 
-.project p {
-    font-size: 16px;
-    color: #555;
-}
 
 .services {
     height: 500px;
@@ -358,12 +409,12 @@ h2 {
 .text-content {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra el contenido verticalmente */
+    justify-content: center; 
 }
 
 .services h3 {
     margin: 0;
-    padding-bottom: 10px; /* Espacio entre el h3 y el p */
+    padding-bottom: 10px; 
 }
 
 .services p {
@@ -389,12 +440,12 @@ h2 {
 .contcli{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
 }
 
 .cliente{
-    width: 45%; 
+    width: 40%; 
     border-radius: 10px;
     padding: 20px;
     background-color: #ffffff;
@@ -431,8 +482,6 @@ h2 {
 
 .cliente-info p {
     margin: 0;
-    font-size: 14px;
-    color: #555;
 }
 
 /*----------------CONTACTO--------------------*/
@@ -450,21 +499,21 @@ h2 {
     color: white;
     padding: 10px 20px;
     border-radius: 7px;
-    transition: 0.5s;
+    transition: 0.7s;
     font-weight: 400; 
-    margin-bottom: 20px;  
-}
-
-.contacto p{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-size: 16px;
-    color: #555;
+    margin-bottom: 20px;
+    font-size: 15px;  
 }
 
 .contacto a:hover{
     background-color: #014a97;
 }
+
+.contacto p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
 
 .contco{
     display: flex;
@@ -500,7 +549,6 @@ h2 {
 
 .contco2 p {
     margin: 0;
-    font-size: 14px; /* Ajusta el tamaño del texto */
     padding-top: 35px;
 }
 
