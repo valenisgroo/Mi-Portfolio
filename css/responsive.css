@@ -1,7 +1,7 @@
 /*----------------1920px------------------*/
 @media (min-width:1441px) and (max-width:1920px){
 
-    .sobremi p{
+    /* .sobremi p{
         width: 70%;
     }
     .container-item{
@@ -97,10 +97,24 @@
 
     .pie{
         font-size: 16px;
+    } */
+
+    .navbar i{
+        display: none;
     }
 
+    .logros{
+        padding-top: 20px;
+    }
 
+    .project h3 {
+        font-size: 28px;
+        padding-bottom: 21px;
+    }
 
+    .project p {
+        font-size: 16px;
+    }
 }
 
 /*----------------1440px------------------*/
