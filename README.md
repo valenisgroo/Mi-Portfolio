@@ -8,9 +8,12 @@ Como dijimos anteriormente, se respeta completamente el diseño original, cambi�
 
 Observaciones: 
 
-#1) En la sección "hero", se agregó algunas etiquetas <a> para mejorar el diseño anterior (para destacar la manera de comunicarse conmigo) y además la imagen no tiene curvas
+#1) En la sección "hero", se agregó algunas etiquetas <a> para mejorar el diseño anterior (para destacar la manera de comunicarse conmigo) y además la imagen no tiene curvas.
+
 #2) Se crearon 2 nuevas secciones "Sobre mi" y "experencia" debido a que son secciones fundamentales en un portfolio y 2 porque se necesita seguir el estilo de colores del diseño original. 
+
 #3) La nueva sección experencia está vacía debido a que por el momento no tengo ninguna experencia laboral.
+
 #4) También esta disponible el responsive para diversos tamaños (agregando un icon en pantallas pequeñas)
 
 Finalmente, el resultado final del portfolio es el siguiente link:
