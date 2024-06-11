@@ -23,12 +23,24 @@ https://valenisgroo.github.io/Mi-Portfolio/
 
 ##Sobre mi
 
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/02e3b45b-609c-4f16-9274-9e7ee542bde9)
+
 ##Experencia Laboral
+
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/808bff5f-2f49-43cc-9b1a-fa69ffecc978)
 
 ##Habilidades
 
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/63e5296d-baab-49f5-ac23-1128b273a94d)
+
 ##Proyectos
+
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/4eabb054-0203-46ae-9584-046252464a6b)
 
 ##Testimonios
 
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/b08eb232-6077-40f7-98aa-811457a5cb30)
+
 ##Contacto
+
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/7cf2f856-e960-4966-bb62-d990fddc30f4)
