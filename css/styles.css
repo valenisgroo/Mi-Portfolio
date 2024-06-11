@@ -172,11 +172,12 @@ p{
     position: relative;
     border: 2px solid white;
     border-radius: 20px; /* Bordes redondeados */
-    width: 300px;
+    width: 250px;
     height: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /*Sombra*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
     z-index: 1;
-  }
+}
+
 
 /*-----------------Sobre mi--------------------*/
 .sobremi{

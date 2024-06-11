@@ -1,103 +1,8 @@
 /*----------------1920px------------------*/
 @media (min-width:1441px) and (max-width:1920px){
-
-    /* .sobremi p{
-        width: 70%;
-    }
-    .container-item{
-        width: 35%;
-    }
-
-    .container-experience{
-        width: 100%;
-    }
-
-    .navbar i{
-        display: none;
-    }
-
-    p{
-        font-size: 20px;
-    }
-
-    h2{
-        font-size: 29px;
-    }
-
-    .hero {
-        height: 75vh;
-    }
-
-    .hero-content {
-        width: 100%;
-    }
-
-    .hero-content h5{
-        font-size: 15px;
-    }
-
-    .logo{
-        font-size: 27px;
-    }
-
-    .header {
-        padding: 22px 10%;
-    } 
-
-    .navbar a {
-        font-size: 22px;
-    }
-    .sobremi{
-        padding-top: 100px;
-    }
-
-    .experience{
-        padding-top: 100px;
-    }
-
-    .habilidades{
-        padding-top: 100px;
-        height: 53vh;
-    }
-
-    .proyects {
-        padding: 100px;
-        padding-bottom: 10px;
-    }
-
-    .project{
-        padding-top: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .testimonials {
-        padding-top: 100px;
-        height: 53vh;
-    }
-
-    .testimonials p{
-        padding-bottom: 30px;
-    }
-
-
-    .contcli {
-        gap: 50px;
-        padding: 70px;
-        height: auto;
-    }
-
-    .contcli p{
-        width: 500px;
-    }
-
-    .contacto {
-        padding: 90px 30px 20px;
-    }
-
     .pie{
         font-size: 16px;
-    } */
+    } 
 
     .navbar i{
         display: none;
@@ -105,6 +10,10 @@
 
     .logros{
         padding-top: 20px;
+    }
+
+    .hero-content h5 {
+        font-size: 12px;
     }
 
     .project h3 {
@@ -115,6 +24,15 @@
     .project p {
         font-size: 16px;
     }
+
+    .project {
+        padding-top: 35px;
+    }
+
+    .hero{
+        padding-right: 250px;
+    }
+
 }
 
 /*----------------1440px------------------*/
