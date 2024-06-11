@@ -17,4 +17,18 @@ Finalmente, el resultado final del portfolio es el siguiente link:
 
 https://valenisgroo.github.io/Mi-Portfolio/
 
+##Inicio
 
+![image](https://github.com/valenisgroo/Mi-Portfolio/assets/140656760/4f94a69f-e396-44d9-90db-c63461f9b6ec)
+
+##Sobre mi
+
+##Experencia Laboral
+
+##Habilidades
+
+##Proyectos
+
+##Testimonios
+
+##Contacto
